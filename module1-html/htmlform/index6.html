@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <pre>
+        thẻ input có type="radio" được sử dụng khi cho phép người dùng
+        chỉ được chọn 1 trong các tùy chọn ví dụ như giới tính chỉ được chọn
+        1 trong nam hay nữ
+        Nếu bạn muốn chọn trước giá trị cho tùy chọn nào hãy thêm checked vào
+        thẻ input đó
+        Chú ý ở đây là các thẻ input tùy chọn này có trùng tên nhé
+        ví dụ bên dưới 2 thẻ input có cùng tên là gioitinh
+    </pre>
+
+    <form name="dangky" method="post" action="">
+
+        <p>
+            <label>Giới tính</label>
+            <br />
+            <input type="radio" name="gioitinh" value="1" checked> Nam
+            <br />
+            <input type="radio" name="gioitinh" value="0"> Nữ
+        </p>
+
+        <p>
+            <input type="submit" name="submit" value="Đăng ký">
+        </p>
+    </form>
+
+
+</body>
+</html>
